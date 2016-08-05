@@ -1,0 +1,118 @@
+.topright {
+	float: right;
+	list-style-type: none;
+}
+
+.topright > li {
+	float: left;
+	/*background-color: gray;*/
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.topright > li > p {
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+}
+
+/* .logo is a common way to use a <div> for centering purposes. On <div> blocks
+	margin: 0 auto centers around a set width */
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 272;
+	height: 92;
+
+	padding-top: 150px;
+	/*background-color: yellow;*/
+}
+
+.searchbar {
+	display: block;
+	margin: 0 auto;
+	width: 530px;
+	padding-top: 30px;
+}
+
+input[type=text] {
+	width: 530px;
+	border: 1px solid #d9d9d9;
+	border-radius: 0px;
+	font-size: 20px;
+	padding: 8px;
+}
+
+input[type=submit] {
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	padding: 0 16px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	height: 36px;
+	color: #757575;
+	text-align: center;
+}
+
+input[type=text]:hover {
+	border: 1px solid #b9b9b9;
+	border-top-color: #a0a0a0;
+}
+
+input[type=text]:focus {
+	border: 1px solid #4d90fe;
+}
+
+input[type=submit]:hover {
+	color: #222;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+input[type=submit]:focus {
+	border: 1px solid #4d90fe;
+}
+
+input {
+	font-family: arial, sans-serif;
+}
+
+.centerform {
+	/*background-color: pink;*/
+}
+
+.buttons {
+	background-color: gray;
+	margin-top: 25px;
+}
+
+.rightbutton {
+	display: block;
+	float: right;
+	margin-right: 36.6%;
+}
+
+.leftbutton {
+	display: block;
+	float: left;
+	margin-left: 36.6%;
+}
+
+.googleapp {
+	display:block;
+	margin-top:-5px;
+}
+
+.googlebell {
+	display:block;
+	margin-top: -2px;
+}
+
+.googleprofile {
+	display: block;
+	border-radius: 100%;
+	margin-top: -8px;
+}
